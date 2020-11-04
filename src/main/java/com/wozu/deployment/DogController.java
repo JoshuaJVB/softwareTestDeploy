@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DogController {
 
     @GetMapping("/image/random")
-    public String getDog(){
+    public String getDog() {
         return "{\"message\":\"https://images.dog.ceo/breeds/pointer-germanlonghair/hans2.jpg\",\"status\":\"success\"}";
 
     }
